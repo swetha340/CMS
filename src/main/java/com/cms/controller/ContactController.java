@@ -20,7 +20,7 @@ import com.cms.repository.ContactRepository;
 
 @RestController
 @RequestMapping("/api/v1/")
-@CrossOrigin(origins={"http://localhost:3000"})
+@CrossOrigin(origins={"https://contacts-uii.herokuapp.com/"})
 public class ContactController {
 	@Autowired
 	private ContactRepository contactRepository;
